@@ -1,0 +1,54 @@
+body{
+    background-color: yellow;
+}
+.container{
+    width: 450px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    top: 150px;
+    left:500px;
+    background-color: blue;
+
+}
+/* @media(with:600px){
+.container{
+background-color: orange;
+} */
+
+.guess{
+    font-size: 40px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    position: relative;
+    left: 50px;
+}
+#input{
+    width: 180px;
+    height: 25px;
+    position: relative;
+    left: 100px;
+}
+.submit{
+background-color: white;
+border:none;
+color: black; 
+border: 20px solid;
+}
+/* .submit:hover{
+    background-color: blue;
+    color: white;
+
+} */
+.clear{
+    background-color: white;
+    padding: 5PX 20px;
+    position: relative;
+     left: 120px;
+}
+#message{
+    font-size: 30px;
+    position:relative;
+    top: 35px;
+    left: 15px;
+}
